@@ -1,5 +1,4 @@
-# Downstream/upstream impact analysis for Snowflow Portal: BFS over GET_LINEAGE plus a cascading risk score derived from real dependency breadth and consumer counts.
-# Co-authored with CoCo
+
 import pandas as pd
 import queries as q
 
