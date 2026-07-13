@@ -1,4 +1,4 @@
-# Snowflow Portal
+# TraceFlow
 
 A Streamlit-in-Snowflake app for **metadata discovery, data lineage and governance** built entirely on live Snowflake `ACCOUNT_USAGE` metadata. It visualizes how databases, tables and columns are connected — who writes them, who consumes them, and how data is transformed as it moves — using interactive Apache ECharts graphs.
 
