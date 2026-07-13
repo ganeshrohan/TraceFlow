@@ -1,5 +1,4 @@
-# Dependency-free dbt-style card lineage renderer (HTML/CSS/SVG inline CCv2) for Snowflow Portal, with an offline Graphviz fallback.
-# Co-authored with CoCo
+
 """Renders lineage as dbt / Select Star style CARD graphs (table cards with a scrollable
 column list, column-to-column bezier edges, click-to-trace, and per-edge transformations)
 via a dependency-free HTML/CSS/SVG inline CCv2 component. Falls back to a Graphviz clustered
