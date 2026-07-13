@@ -1,0 +1,19 @@
+# Streamlit in Snowflake apps run with a pre-installed version of the Streamlit library.
+# This account is a TRIAL account, which does NOT support External Access Integrations,
+# so no PyPI fetch is possible. Dependencies are therefore limited to what ships pre-installed
+# with streamlit[snowflake] (which includes pandas). Adding any other package here would trigger
+# a PyPI fetch that fails. sqlglot is NOT available; lineage_parser.py degrades gracefully.
+# See https://docs.snowflake.com/en/developer-guide/streamlit/app-development/dependency-management
+
+[project]
+name = "snowflow-portal"
+requires-python = ">= 3.11"
+version = "0.1.0"
+description = "Snowflow Portal - metadata discovery, column lineage and governance"
+dependencies = [
+    "streamlit[snowflake]>=1.54.0"
+]
+
+[tool.uv]
+# earlier versions of numba require a python version < 3.11
+constraint-dependencies = ["numba>=0.56.0"]
