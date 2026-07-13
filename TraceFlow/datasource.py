@@ -1,5 +1,4 @@
-# Snowflake connection adapter for Snowflow Portal: resolves st.connection (embedded identity when hosted, secrets.toml locally) and runs cached, parameterized queries.
-# Co-authored with CoCo
+
 import os
 import streamlit as st
 import pandas as pd
