@@ -1,5 +1,4 @@
-# Snowflow Portal - Streamlit entry point: metadata discovery, DB/table/column lineage, transformations, writers/consumers and cascading impact over live Snowflake ACCOUNT_USAGE metadata.
-# Co-authored with CoCo
+
 import html
 import importlib
 from datetime import date, timedelta
