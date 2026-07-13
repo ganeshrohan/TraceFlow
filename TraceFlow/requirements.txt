@@ -1,5 +1,6 @@
-# Trial account: no External Access Integration is possible, so nothing can be fetched from PyPI.
-# All runtime dependencies come from the pre-installed streamlit[snowflake] (which includes pandas).
-# Do not add packages here or in pyproject.toml - it will trigger a PyPI fetch that fails.
-# sqlglot is vendored in the sqlglot/ folder (pure Python). Graph rendering is dependency-free
-# (custom HTML/SVG card map with a Graphviz fallback) - no external JS libraries.
+streamlit>=1.30.0
+snowflake-connector-python>=3.6.0
+snowflake-snowpark-python>=1.11.0
+pandas>=2.0.0
+sqlglot>=23.0.0
+pyarrow>=14.0.0
