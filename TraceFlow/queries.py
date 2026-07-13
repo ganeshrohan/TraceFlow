@@ -1,5 +1,4 @@
-# Parameterized Snowflake ACCOUNT_USAGE / GET_LINEAGE queries for Snowflow Portal, ported from the Untitled 9.sql lineage toolkit.
-# Co-authored with CoCo
+
 """All SQL is parameterized with qmark (?) value binds. Identifiers are never
 interpolated from raw user text; DB/schema/object choices are passed as bound
 ILIKE/equality VALUES, which is injection-safe."""
