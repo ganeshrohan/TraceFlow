@@ -1,5 +1,4 @@
-# sqlglot-based per-column transformation extractor for Snowflow Portal, covering INSERT/CTAS, UPDATE and MERGE.
-# Co-authored with CoCo
+
 """Maps each target column to its exact SQL expression by parsing query_text with sqlglot.
 
 Handles INSERT ... SELECT, CREATE TABLE AS SELECT, UPDATE ... SET, and MERGE (matched
